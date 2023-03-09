@@ -1,5 +1,111 @@
+body{
+  background-color: silver;
+}
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pagina{
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    width: 900px;
+    height:  2550px;
+    background-color: lightseagreen;
+    padding-left: 60px;
+    padding-top: 30px;
+    border-width: 8px;
+    border-color: yellow ;
+    border-style: double;
+    left: 260px;
+    scroll-behavior: smooth;
+
+}
+
+
 img{
-    img .jpg"
-    width: 150px;
-    height: 150px;
+    flex-direction: column-reverse;
+    width: 220px;
+    height: 270px;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    background-color:purple;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 20%;
+    border-width: 9px;
+    border-color: gray;
+    border-style: groove;
+}
+
+.container{
+ max-width: 1000px;    
+ padding-left: 60px;
+ counter-increment: calc(50%);
+ padding-top: 70px;
+ position: relative;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 55px;
+ letter-spacing: 50px;
+ top: 380px;
+}
+
+h1{
+    padding-top: 60px;
+    padding-left: 65px;
+    color: black;
+    height: 30%;
+    font-size: 50px;
+  }
+
+    padding-left: 40px;
+    padding-top: 90px;
+    lighting-color: blue;
+    font-size: 30px;
+
+
+h2{width: 220px; 
+  height: 40px;
+  top: 100px;
+    padding-top: 50px;
+    padding-left: 190px;
+    font-size: 40px;
+}
+
+.Datos-personales{
+    padding-left: 35px;
+    font-size: 30px;
+}
+
+ul{
+    padding-left: 35px;
+    padding-top: 35px;
+}
+
+.nivel-estudios{
+  font-size: 30px;
+}
+
+.Datos-personales{
+  font-size: 30px;
+  top: 50px;
+}
+
+.experiencia-laboral{
+  font-size: 30px;
+}
+
+.datos-contacto{
+  font-size: 30px;
+}
+
+.perfil-laboral{
+  font-size: 30px;
+}
+
+
+
+@media(max-width:767px){
+   
 }
